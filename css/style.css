@@ -15,7 +15,7 @@ a {
 
 .jumbotron {
     padding: 100px 50px;
-    background-image: url(img/background-img.svg);
+    background-image: url(../img/background-img.svg);
     background-size: cover;
     margin: 0 auto;
 }
