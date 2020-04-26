@@ -7,6 +7,7 @@ a {
     text-decoration: none;
 }
 
+/* css jumbotron */
 .container {
     width: 1170px;
     padding: 0 15px;
@@ -65,4 +66,34 @@ a {
 .find-more {
     background-color: #3b5998;
     margin-right: 10px;
+}
+
+
+
+/* css about-us*/
+.about-us {
+  padding: 10px 0;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0  auto;
+  background: #fff;
+}
+.about-us h2 {
+  font-size: 35px;
+  margin-top: 10px;
+  color:#2D5674;
+}
+.about-us p {
+  font-weight: 400;
+  line-height: 1.5;
+}
+.about-us img {
+    float: left;
+    width: 600px;
+    height: 300px;
+    margin-left: -140px;
+    padding-bottom: 50px;
+}
+.card {
+  padding: 5px 120px;
+  margin: 0 auto;
 }
