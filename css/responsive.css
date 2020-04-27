@@ -1,0 +1,96 @@
+@media (max-width: 1000px) {
+    .header-list {
+        /* display:none; */
+        position:fixed;
+        width: 100%;
+        height: 100vh;
+        background: rgb(21, 73, 110);
+        top: 60px;
+        /* left:0; */
+        left:-100%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    .header-list a {
+        display: block;
+    }
+
+    #check:checked ~ .header-list{
+        left: 0;
+    }
+
+    .fa.menu-icon {
+        display:block;
+    }
+
+    .jumbotron {
+        flex-wrap: wrap;
+        flex-direction:column;
+        padding: 80px 80px;
+    }
+
+    .jumbotron .konten {
+        width:100%;
+        margin:0 auto;
+        text-align:center;
+        padding-bottom: 40px;
+    }
+
+
+
+    .about-us {
+      flex-wrap: wrap;
+      flex-direction:column;
+    }
+
+    .about-us .konten {
+        width: 100%;
+        margin:0 auto;
+        text-align:center;
+      }
+
+    .about-us h2 {
+        text-align: center;
+    }
+
+
+    .footer-content {
+        flex-wrap: wrap;
+        flex-direction:column;
+        height: 100%;
+    }
+    
+    .footer-section {
+        width: 100%;
+        margin:0 auto;
+        text-align:center;
+        padding-bottom: 30px;
+    }
+
+    .contact-form input, .contact-form textarea{
+        margin:10px auto;
+    }
+
+    .anggota .konten .card h5{
+        font-size: 14px;
+    }
+
+    .anggota .konten .card p{
+        font-size: 12px;
+    }
+    
+  }
+
+@media (max-width:670px) {
+    
+
+    .anggota .konten {
+        flex-direction:column;
+    }
+
+    .anggota .konten .card {
+        width:100%;
+        margin:10px auto;
+    }
+}
