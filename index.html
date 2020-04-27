@@ -1,39 +1,180 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Group F13</title>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body>
-        <header>
 
-        </header>
-        <div id="home" class="jumbotron">
-            <div class="container">
-                <img src="img/web-development.png">
-                <h1>Group F13 </h1>
-                <h2>HTML/CSS Digitalent 2020</h2>
-                <p> Website Profile for group F13 from HTML/CSS class</p>
-                <div class="btn-wrapper">
-                    <a href="#" class="btn find-more">Find Out More!</a>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Group F13</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header-left">
+                <img height="auto" class="logo" src="img/DTS.png" alt="">
+            </div>
+
+            <div class="header-right">
+                <input type="checkbox" id="check">
+                <label for="check"><i class="fa fa-bars menu-icon"></i></label>
+                <div class="header-list">
+                    <a class="page-scroll" href="#home">Home</a>
+                    <a class="page-scroll" href="#about-us">About Us</a>
+                    <a class="page-scroll" href="#anggota">Anggota</a>
                 </div>
             </div>
         </div>
-        
-        <!-- Start About Us -->
-        <div id="about-us" class="about-us">
-          <div class="container">
-              <h2 style="text-align:center;">Tentang Kami</h2>
-              <img src="img/about.jpg">
-              <div class="card">
-                <p>Halo, kami adalah Group F13 dari kelas F <span style="color:#F44336;">HTML</span>,<span style="color:#3F51B5;">CSS</span>,<span style="color:#FFC107;">JAVASCRIPT</span> <strong style="color:#2D5674;">Digital Talent Schoolarship Kominfo</strong>, ini adalah team project Group F13.
-                  Kami berasal dari berbagai daerah di Indonesia,bersatu membangun website profil Group F13 ini dengan rasa bangga</p>
-              </div>
-          </div>
+
+    </header>
+
+    <div id="home" class="jumbotron">
+        <!-- <div class="container"> -->
+        <div class="konten kiri">
+            <h1>Group F13 </h1>
+            <h2>HTML/CSS Digitalent 2020</h2>
+            <p> Website Profile for group F13 from HTML/CSS class</p>
+            <div class="btn-wrapper">
+                <a href="#" class="btn find-more">Find Out More!</a>
+            </div>
         </div>
-        <!-- End About Us -->
-    </body>
+        <div class="konten kanan">
+            <img src="img/web-development.png">
+        </div>
+
+        <!-- </div> -->
+    </div>
+
+    <!-- Start About Us -->
+    <div id="about-us" class="about-us">
+        <!-- <div class="container"> -->
+        <div class="konten kiri">
+            <img src="img/about.jpg">
+        </div>
+        <div class="konten kanan">
+            <h2>Tentang Kami</h2>
+            <p>Halo, kami adalah Group F13 dari kelas F <span style="color:#F44336;">HTML</span>,<span
+                    style="color:#3F51B5;">CSS</span>,<span style="color:#FFC107;">JAVASCRIPT</span> <strong
+                    style="color:#2D5674;">Digital Talent Schoolarship Kominfo</strong>, ini adalah team project
+                Group F13.
+                Kami berasal dari berbagai daerah di Indonesia,bersatu membangun website profil Group F13 ini
+                dengan rasa bangga</p>
+        </div>
+
+        <!-- </div> -->
+    </div>
+    <!-- End About Us -->
+
+    <div id="anggota" class="anggota">
+        <h2>Anggota</h2>
+        <div class="konten">
+            <div class="card">
+                <h5>M. Jouhari</h5>
+                <p>Kesibukan : jualan</p>
+                <p>Hobi : photography, photoshoppers</p>
+                <p>Domisili : riau</p>
+            </div>
+
+            <div class="card">
+                <h5>Muhamad Ristiyanto</h5>
+                <p>Kesibukan : Nulis di blog</p>
+                <p>Hobi : Editing Video</p>
+                <p>Domisili : Magelang - Jawa Tengah</p>
+            </div>
+
+            <div class="card">
+                <h5>M. Rizki Hernanda</h5>
+                <p>Kesibukan : Sosial Distancing</p>
+                <p>Hobi : Buat Scene Video Sosialisasi</p>
+                <p>Domisili : Aceh</p>
+            </div>
+
+            <div class="card">
+                <h5>Mohammada Aprilianto</h5>
+                <p>Kesibukan : staf IT di BLK Kediri</p>
+                <p>Hobi : Coding, Youtube-an</p>
+                <p>Domisili : Kediri</p>
+            </div>
+
+            <div class="card">
+                <h5>Mada Lazuardi Nazilly</h5>
+                <p>Kesibukan : Bela Negara dengan tetap #dirumahaja</p>
+                <p>Hobi : merangkai kata-kata</p>
+                <p>Domisili : Surabaya</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+
+            <div class="footer-section about">
+                <img class="logo" src="img/DTS.png" alt="">
+                <p>Anda dapat menghubungi kami lewat telpon dan media sosial.
+                </p>
+                <div class="contact">
+                    <span><i class="fa fa-phone"></i>&nbsp; 123-456-789</span>&nbsp;&nbsp;&nbsp;
+                    <span><i class="fa fa-envelope"></i>&nbsp; group.f13@gmail.com</span>
+                </div>
+                <div class="social">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="https://instagram.com/madaapril" target="_blank"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-whatsapp"></i></a>
+
+                </div>
+            </div>
+
+            <div class="footer-section link">
+                <h2>Quick Links</h2>
+
+                <a class="page-scroll" href="#home">Home</a><br>
+                <a class="page-scroll" href="#about-us">About us</a><br>
+                <a class="page-scroll" href="#anggota">Anggota</a>
+
+
+            </div>
+
+            <div class="footer-section contact-form">
+                <h2>Contact us</h2>
+                <form action="index.html" method="post">
+                    <input type="email" name="email" class="text-input contact-input"
+                        placeholder="your email address...">
+                    <textarea type="message" name="email" class="text-input contact-input"
+                        placeholder="your message..."></textarea>
+                    <button type="submit" class="btn">
+                        <i class="fa fa-envelope"></i>
+                        Send
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            &COPY; digitalent.kominfo.go.id | Group F13
+        </div>
+
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+    <script src="http://gsgd.co.uk/sandbox/jquery/easing/jquery.easing.1.3.js"></script>
+    <script>
+        $(".page-scroll").on("click", function () {
+            let tujuan = $(this).attr('href');
+            let elemenTujuan = $(tujuan);
+
+            $('html, body').animate({
+                scrollTop: elemenTujuan.offset().top - 20
+            }, 1000, 'easeInOutExpo');
+
+        });
+    </script>
+
+</body>
+
 </html>
